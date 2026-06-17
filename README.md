@@ -22,4 +22,4 @@ All database operations are divided into structural modules located inside the `
 ## 🚀 Key Database Engineering Practices Applied
 * **Relational Accuracy:** Implemented explicit `LEFT JOIN` structures to safely link Fact data (`gold.fact_sales`) with Dimensional attributes (`gold.dim_products`, `gold.dim_customers`) without data leakage.
 * **Analytical Isolation:** Leveraged inline subqueries paired with ranking window configurations to execute complex business rule filters.
-* **Data Aggregation:** Handled extensive group-by operations and multi-line datasets using unified reporting sets (`UNION ALL`).
+* **Data Aggregation:** Handled extensive group-by operations and multi-line datasets using unified reporting sets (`UNION ALL`). 
