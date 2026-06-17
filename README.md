@@ -18,7 +18,6 @@ All database operations are divided into structural modules located inside the `
 * **`04_measures_exploration.sql`**: Consolidated KPI metrics ledger mapping total revenue, order count, and product densities using `UNION ALL`.
 * **`05_magnitude_analysis.sql`**: Multi-dimensional aggregations evaluating revenue distribution across product catalogs and customer segments.
 * **`06_ranking_analysis.sql`**: Advanced performance benchmarking utilizing analytical window functions (`RANK() OVER`) to capture high-value assets and customer churn indicators.
-* **`Advanced Operational Scripts (07-13)`**: Advanced time-series analysis, cumulative matrices, and behavioral cohort reports currently under architectural deployment phase.
 
 ## 🚀 Key Database Engineering Practices Applied
 * **Relational Accuracy:** Implemented explicit `LEFT JOIN` structures to safely link Fact data (`gold.fact_sales`) with Dimensional attributes (`gold.dim_products`, `gold.dim_customers`) without data leakage.
